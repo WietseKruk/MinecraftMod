@@ -55,9 +55,9 @@ public class ExampleMod {
     );
 
     // Creates a new food item with the id "examplemod:example_id", nutrition 1 and saturation 2
-    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("josh_cock",
+    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
         () -> new Item(new Item.Properties()
-            .setId(ITEMS.key("josh_cock"))
+            .setId(ITEMS.key("example_item"))
             .food(new FoodProperties.Builder()
                 .alwaysEdible()
                 .nutrition(10)
